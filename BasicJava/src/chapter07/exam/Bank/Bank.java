@@ -18,13 +18,11 @@ public class Bank {
 		return numberOfCustomers;
 	}
 
-	public Customer[] getCustomer() {
+	public Customer[] getCustomers() {
 		return customers;
-
 	}
 
-	public Customer getcustomer(int index) {
+	public Customer getCustomer(int index) {
 		return customers[index];
 	}
-
 }
